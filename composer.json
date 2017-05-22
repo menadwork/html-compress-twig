@@ -25,9 +25,15 @@
       "voku\\": "src/voku/"
     }
   },
+  "repositories": {
+    "HtmlMin": {
+      "type": "vcs",
+      "url": "https://github.com/menadwork/HtmlMin"
+    }
+  },
   "require": {
     "php": ">=5.3.0",
-    "voku/html-min": "~1.0",
+    "HtmlMin": "~1.0",
     "twig/twig": "^1.26 || ~2.0"
   },
   "require-dev": {
